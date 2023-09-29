@@ -1,0 +1,399 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            /** this is first main bar**/
+            .nav_bar{
+                height: 60px;
+                background-color: #23384a;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            /**lobo of amazone**/
+            .subnav_bar1{
+                height: 52px;
+                width: 100px;
+                background-image: url("am.1.png");
+                background-size: cover;
+            }
+            /**hover of lobo**/
+            .subnav_bar1:hover{
+                border: 1.5px solid white;
+            }
+            /**second nav bar desin=*/
+            .nav_bar2{
+            }
+            .nav_bar2 p:nth-child(1)
+            {
+                margin-left:15px;
+            }
+            /**location and india**/
+            .subnav_bar2{
+                display: flex;
+                margin-left:10px;
+            }
+            /**serach bar**/
+            .nav_bar3{
+                display: flex;
+                justify-content: space-evenly;
+                background-color: pink;
+                width: 620px;
+                height: 40px;
+                margin-left: 10px;
+                border: none;
+            }
+            .nav_bar3:hover{
+                border: 1.5px solid  #ffc800;
+            }
+            .select{
+                background-color: #f3f3f3;
+                width: 45px;
+                border-top-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border: none;
+            }
+            .nav_search_area{
+                width: 100%;
+                font-size: 1rem;
+                border: none;
+            }
+            .search_area{
+                width: 45px;
+                display: flex;
+                background-color: #ffc800;
+                color: white;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.3rem;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px; 
+            }
+            .nav_bar4{
+                margin-left: 10px;
+                font-size: 0.7rem;
+                color: white;
+            }
+            .nav_bar4:hover{
+               border:  2px solid white;
+            }
+            .nav_bar4 p:nth-child(2){
+                font-weight: bold;
+                font-size: 0.9rem;
+            }
+            .nav_bar5{
+                display: flex;
+                color:white;
+                margin-left: 20px;
+                font-size: 25px;
+            }
+            .nav_bar5:hover{
+                border: 1.5px solid white;
+            }
+            .option{
+                display: flex;
+                height:40px;
+                background-color: #053e6f;
+                justify-content: space-evenly;
+                color:white;
+                font-size: 20px;
+                align-items: center;
+            }
+            .opt p{
+                display: inline;
+                margin: 10px;
+            }
+            .opt1{
+                display: flex;
+                margin-left: 120px;
+            }
+            /**hero section**/
+            .hero{
+                height: 350px;
+                width: 100%;
+                background-color:black;
+                background-image: url("hero_image.jpg");
+                background-size:cover;
+                display: flex;
+                justify-content: center;
+                align-items:flex-end;
+                
+            }
+            .hero_bar{
+                height: 30px;
+                width: 95%;
+                background-color: white;
+                margin-bottom: 40px;
+            }
+            .hero_bar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .product{
+                height: 450px;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                background-color:#f3f3f3;
+            }
+            .product1{
+                height: 400px;
+                width: 23%;
+                background-color: white;
+            }
+            .product h2{
+                margin-left: 12px;
+                margin-top: 10px;
+            }
+            .sub_product1{
+                height:310px;
+                width: 88%;
+                margin-left: 12px;
+                margin-top: 20px;
+                background-image: url("box5_image.jpg");
+                background-size: cover;
+                
+            }
+            .product2{
+                height: 400px;
+                width: 23%;
+                background-color: white;
+                }
+             .sub_product2{
+                height: 310px;
+                width: 88%;
+                margin-left: 12px;
+                margin-top: 20px;
+                background-image: url("box5_image.jpg");
+                background-size: cover;
+                
+            }
+            .product4{
+                height: 400px;
+                width: 23%;
+                background-color: white;
+                }
+                .sub_product4{
+                height: 310px;
+                width: 88%;
+                margin-left: 12px;
+                margin-top: 20px;
+                background-image: url("box5_image.jpg");
+                background-size: cover;    
+            }
+            .product_line{
+                height: 450px;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                background-color:#f3f3f3;
+            }
+            .product5{
+                height: 400px;
+                width: 23%;
+                background-color: white;
+            }
+            .product_line h2{
+                margin-left: 12px;
+                margin-top: 10px;
+            }
+            .sub_product5{
+                height:310px;
+                width: 88%;
+                margin-left: 12px;
+                margin-top: 20px;
+                background-image: url("box8_image.jpg");
+                background-size: cover;               
+            }
+            .product_line a{
+                margin-left: 12px;
+            }
+            .footer{
+                height: 440px;
+                width: 100%;
+                background-color: #23384a;
+                border-top:10px solid white;
+            }
+            .footer1{
+                height:60px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 25px;
+                background-color: #053e6f;
+            }
+            .sub{
+                height: 280px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            .sub p{
+                padding-top: 10px;
+            }
+            .footer3{
+                height: 60px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                border: 1.5px solid white;
+            }
+            .subfooter_lobo{
+                height: 52px;
+                width:100px;
+                background-image: url("am.1.png");;
+                background-size: cover;
+                
+            }
+            .footer4{
+                height: 40px;
+                display: flex;
+                background-color: black;
+                color: white;
+                justify-content: center;
+                align-items: center;
+            }
+            
+        </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="nav_bar">
+            <div class="subnav_bar1"></div>
+            <div class="nav_bar2">
+                <p>delivery</p>
+                <div class="subnav_bar2">
+                    <i class="fa-solid fa-location-dot"></i>
+                  <P>india</P>
+                </div>
+            </div>
+            <div class="nav_bar3">
+                    <select class="select"><option>All</option></select>
+                    <input type=""  class="nav_search_area" placeholder="search amazone"/>
+                    <div class="search_area"> 
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+            </div>
+            <div class="nav_bar4">
+                <p>Hello,sign in</p>
+                <p>Account & Lists</p>
+            </div>
+            <diV class="nav_bar5">
+                <i class="fa-solid fa-cart-plus"></i>
+                <p>cart</p>
+            </div>
+        </div>
+        <div class="option">
+            <div class="bar"><i class="fa-solid fa-bars"></i>All</div>
+            <div class="opt">
+                <p>Todays deals</p>
+                <p>customer Services</p>
+                <p>Registry</p>
+                <p>gift card</p>
+                <p>Sell</p>
+            </div>
+            <div class="opt1">Shop great deals</div>
+        </div>
+        <div class="hero">
+            <div class="hero_bar"><P>You are on <a>amazone.com.</a>You can also shop on amzozone India for mllions of product which is fast local delivery. <a>click here to amazone.in</a></P>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product1"><h2>clothes</h2>
+                <div class="sub_product1"></div>
+                <a style="margin-left:12px ; color: blue;margin-top: 5px;">see more</a>
+            </div>
+            <div class="product2">
+                <h2>clothes</h2>
+                <div class="sub_product2"></div>
+                <a style="margin-left:12px ; color: blue;margin-top: 5px;">see more</a>
+            </div>
+            <div class="product2">
+                <h2>clothes</h2>
+                <div class="sub_product2"></div>
+                <a style="margin-left:12px ; color: blue;margin-top: 5px;">see more</a>
+            </div>
+            
+            <div class="product4">
+                <h2>clothes</h2>
+                <div class="sub_product4"></div>
+                <a style="margin-left:12px ; color: blue;margin-top: 5px;">see more</a>
+            </div>
+        </div>
+        <div class="product_line">
+            <div class="product5">                
+                <h2>clothes</h2>
+                <div class="sub_product5"></div>
+                <a style="margin-left:12px ; color: blue;margin-top: 5px;">see more</a>
+            </div>
+            <div class="product5">
+                <h2>clothes</h2>
+                <div class="sub_product5"></div>
+                <a style="margin-left:12px ; color: blue;margin-top: 5px;">see more</a>
+            </div>
+            <div class="product5">
+                <h2>clothes</h2>
+                <div class="sub_product5"></div>
+                <a style="margin-left:12px ; color: blue;margin-top: 5px;">see more</a>
+            </div>
+            <div class="product5">
+                <h2>clothes</h2>
+                <div class="sub_product5"></div>
+                <a style="margin-left:12px ; color: blue;margin-top: 5px;">see more</a>
+            </div>
+    </div>              
+    <div class="footer">
+        <div class="footer1">click to up</div>
+        <div class="sub">
+        <div>
+            <p><h2>Gtt to know us</h2></p>
+            <p>career</p>
+            <p>blog</p>
+            <p>ABout amzozone</p>
+            <p>Feculity</p>
+            <p>Amazone Restore</p>
+            <p>Amazone device</p>
+            <p>Amazone Services</p>
+        </div>
+        <div>
+            <p><h2>Gtt to know us</h2></p>
+            <p>career</p>
+            <p>blog</p>
+            <p>ABout amzozone</p>
+            <p>Feculity</p>
+            <p>Amazone Restore</p>
+            <p>Amazone device</p>
+            <p>Amazone Services</p>
+        </div>
+        <div>
+            <p><h2>Gtt to know us</h2></p>
+            <p>career</p>
+            <p>blog</p>
+            <p>ABout amzozone</p>
+            <p>Feculity</p>
+            <p>Amazone Restore</p>
+            <p>Amazone device</p>
+            <p>Amazone Services</p>
+        </div>
+        </div>       
+        <div class="footer3">
+            <div class="subfooter_lobo"></div>
+        </div>
+        <div class="footer4">
+            <p>copyright of amazone website is depend on @amazone</p>
+        </div>
+    </div>
+    </body>
+ 
